@@ -1,11 +1,11 @@
 [package]
 name = "hexify"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Jere Käpyaho <2261936+jerekapyaho@users.noreply.github.com>"]
 
 [dependencies]
-clap = { version = "4.3.19", features = ["derive"] }
+clap = { version = "4.3.21", features = ["derive"] }
 hex = "0.4.3"
 
 [[bin]]

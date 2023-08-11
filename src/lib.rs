@@ -11,7 +11,7 @@ pub fn read_file(name: &String) -> Option<Vec<u8>> {
             }
         },
         Err(_) => {
-            eprintln!("Unable to open file {}", &name);
+            eprintln!("Unable to open file '{}'", &name);
             None
         }
     }
