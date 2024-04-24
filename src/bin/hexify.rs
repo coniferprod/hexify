@@ -6,11 +6,11 @@ use hexify::read_file;
 #[derive(Parser)]
 #[command(author, version, about, long_about = None)]
 struct Cli {
-    // Optional name to operate on
+    /// Name of file to operate on
     #[arg(short, long)]
     name: Option<String>,
 
-    // Insert spaces between bytes
+    /// Insert spaces between bytes
     #[arg(short, long, action = ArgAction::SetTrue)]
     spaces: bool,
 
